@@ -1,0 +1,36 @@
+#head{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 50%;
+ /* height: 30vh; */
+ min-height: 30vh; 
+background-color: white;
+border-radius: 20px;
+margin-top: 50px;
+}
+#text{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#list-container>li{
+    font-size:25px;
+    list-style: none;
+    padding: 5px 35px 12px 35px;
+   cursor: pointer;
+}
+li>span{
+  width: 20px; height: 20px;
+    float: right; margin-top: 4px; margin-right: 5px; 
+    /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW9zOL7Mbcs_LeA5isKOju3q5wLnytxK2la4o5x9QHGw&s"); */
+
+}
+
+
+
+
